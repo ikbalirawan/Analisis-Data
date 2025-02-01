@@ -1,9 +1,4 @@
-# 🚢 Titanic Data Analysis Dashboard  
-
-## Deskripsi Proyek
-```
-Proyek ini adalah dashboard interaktif untuk menganalisis data Titanic menggunakan **Python** dan **Streamlit**.
-```  
+# Bike Sharing Analysis Dashboard  
 
 ## Cara Menjalankan Proyek
 ```
