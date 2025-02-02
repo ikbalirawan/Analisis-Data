@@ -32,6 +32,12 @@ st.pyplot(fig)
 
 st.subheader("Pengaruh Cuaca terhadap Jumlah Peminjaman Sepeda")
 fig, ax = plt.subplots()
+sns.boxplot(data=filtered_df, x='weathersit', y='total_rentals_hour', ax=ax)
+ax.set_xlabel("Kategori Cuaca")
+ax.set_ylabel("Jumlah Peminjaman")
+st.pyplot(fig)
+
+fig, ax = plt.subplots()
 sns.scatterplot(x=filtered_df['temp_hour'], y=filtered_df['total_rentals_hour'], ax=ax)
 ax.set_xlabel("Temperature per Jam")
 ax.set_ylabel("Total Peminjaman")
